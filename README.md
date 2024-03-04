@@ -29,3 +29,23 @@ Link de la paleta escogida: [Paleta de colores](https://paletadecolores.com.mx/p
 ![Captura de pantalla 2024-03-01 132629](https://github.com/lcastienc/TASCA-6.-Colors/assets/102548167/89755b0b-dcef-4cf0-90e0-c98b4fbbf31e)
 
 ![Captura de pantalla 2024-03-01 132610](https://github.com/lcastienc/TASCA-6.-Colors/assets/102548167/c280df31-96ea-4d4e-81e7-34121b5911ce)
+
+##Exercici 3: Canviem la paleta de colors del restaurant
+Utilizar la pagina web del restaurante de la acividad 2 y cambiarle los colores usando las paletas dadas.
+Paleta usada:
+
+![image](https://github.com/lcastienc/TASCA-6.-Colors/assets/102548167/50f0ef14-d25a-4bb9-97ce-af868e219229)
+
+Resultado:
+
+![captura web](https://github.com/lcastienc/TASCA-6.-Colors/assets/102548167/d5725ee6-ae74-43b2-b225-53c7ea15cb6c)
+
+
+## Exercici 4: Canviem la paleta de colors del restaurant del vostre company
+
+Para realizar este apartado hago uso del codigo proporciado de la profesora al que le tendre que cambiar los colores de fondo
+
+Resultado:
+
+![webProfe](https://github.com/lcastienc/TASCA-6.-Colors/assets/102548167/2c45971f-3181-47ea-b183-2ea7fda89397)
+
