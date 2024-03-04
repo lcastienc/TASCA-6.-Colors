@@ -1,0 +1,160 @@
+/*Primera Combinacion colores*/
+.container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    /* border: 1px solid black; */
+    left: 10%;
+}
+
+.element {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    mix-blend-mode: multiply;
+    /* isolation: isolate; */
+}
+
+.color1 {
+    background-color: cyan;
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+
+.color2 {
+    background-color: magenta;
+    position: absolute;
+    left: 25%;
+    mix-blend-mode: multiply;
+}
+
+.color3 {
+    background-color: yellow;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    mix-blend-mode: multiply;
+}
+
+/*Segunda combinacion de colores*/
+
+.element1 {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    mix-blend-mode: screen;
+}
+
+.red {
+    background-color: red;
+    mix-blend-mode: screen;
+    top: 3%;
+    left: 120%;
+}
+
+.green {
+    background-color: rgb(0, 255, 0);
+    mix-blend-mode: screen;
+    top: 3%;
+    left: 147%;
+}
+
+.blue {
+    background-color: blue;
+    mix-blend-mode: screen;
+    top: 15%;
+    left: 134%;
+}
+
+/*Parte Flex Colores*/
+
+section {
+    min-height: 100vh;
+}
+
+div {
+    background-color: lightgrey;
+}
+/*Paleta de colores con el colorPicker del VSCode*/
+/* .special:nth-of-type(5n+2) {
+    background-color: #0A89A6;
+}
+
+.special:nth-of-type(5n+3) {
+    background-color: #C8E6C9;
+}
+
+.special:nth-of-type(5n+4) {
+    background-color: #278C7A;
+}
+
+.special:nth-of-type(5n) {
+    background-color: #31239a;
+}
+
+.special:nth-of-type(5n+1) {
+    background-color: #16b764;
+} */
+
+/*Paleta de colores internet*/
+.special:nth-of-type(5n+2) {
+    background-color: #8a9b0f;
+}
+
+.special:nth-of-type(5n+3) {
+    background-color: #e97f02;
+}
+
+.special:nth-of-type(5n+4) {
+    background-color: #f8ca00;
+}
+
+.special:nth-of-type(5n) {
+    background-color: #490a3d;
+}
+
+.special:nth-of-type(5n+1) {
+    background-color: #bd1550;
+
+}
+
+span {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 48px;
+    height: auto;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.special {
+    flex-basis: 23%;
+    margin: 0.5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special:nth-child(5) {
+    flex-basis: 95%;
+}
